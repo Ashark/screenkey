@@ -114,6 +114,8 @@ MODS_MAP = {
     'normal': 0,
     'emacs': 1,
     'mac': 2,
+    'win': 3,
+    'tux': 4,
 }
 
 MODS_SYMS = {
@@ -126,12 +128,12 @@ MODS_SYMS = {
 }
 
 REPLACE_MODS = {
-    'shift':  (_('Shift+'), 'S-',     _('⇧+')),
-    'ctrl':   (_('Ctrl+'),  'C-',     _('⌘+')),
-    'alt':    (_('Alt+'),   'M-',     _('⌥+')),
-    'super':  (_('Super+'), 's-',     _('Super+')),
-    'hyper':  (_('Hyper+'), 'H-',     _('Hyper+')),
-    'alt_gr': (_('AltGr+'), 'AltGr-', _('AltGr+')),
+    'shift':  (_('Shift+'),	'S-',	_('⇧+'),	_('Shift+'),	_('Shift+')),
+    'ctrl':   (_('Ctrl+'),	'C-',	_('⌘+'),	_('Ctrl+'),	_('Ctrl+')),
+    'alt':    (_('Alt+'),	'M-',	_('⌥+'),	_('Alt+'),	_('Alt+')),
+    'super':  (_('Super+'),	's-',	_('Super+'),	_('+'),	_('+')),
+    'hyper':  (_('Hyper+'),	'H-',	_('Hyper+'),	_('Hyper+'),	_('Hyper+')),
+    'alt_gr': (_('AltGr+'),	'AltGr-', _('AltGr+'),	_('AltGr+'),	_('AltGr+')),
 }
 
 

@@ -38,6 +38,8 @@ MODS_MODES = {
     'normal': _('Normal'),
     'emacs': _('Emacs'),
     'mac': _('Mac'),
+    'win': _('Win'),
+    'tux': _('Tux'),
 }
 
 class Options(dict):
